@@ -1,0 +1,368 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin:0%;
+}
+.contenedor-pro{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 3fr;
+
+}
+.columna-1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 34, 104);
+    display: flex;
+    flex-direction: column;
+} 
+.imagen{
+    width: 100%;
+    height: 25%;
+}
+.imagen-1{
+width: 100%;
+height: 100%;
+}
+
+.titulo-pro{
+width: 100%;
+height: 15%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.titulo{
+    margin: 0%;
+    padding: 0%;
+    color: rgb(221, 213, 213);
+    text-align: center;
+}
+.subtitulo{
+    margin: 0%;
+    padding: 0%;
+    color:rgb(221, 213, 213);
+    text-align: center;
+}
+hr{
+    width: 80%;
+}
+.contacto{
+    width: 53%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.icono{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(221, 213, 213);
+}
+.icono-1{
+    width: 100%;
+    height: 20%;
+    margin-top: 10px
+}
+.icono-1 i{
+font-size: 20px;
+}
+.habilidades {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-mini{
+    text-align: center;
+    color: rgb(221, 213, 213);
+}
+.titulo-mini h3{
+    margin: 0%;
+    padding: 0%;
+}
+.lista{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.colum-1{
+    width: 100%;
+    height: 90%; 
+    display: flex;
+    margin-right: 30px;
+}
+.listica{
+    text-align: center;
+    list-style: none;
+    color:rgb(221, 213, 213);
+}
+
+.iconos-2{
+width: 100%;
+height: 15%;
+display: flex;
+flex-direction: column;
+}
+.redes-sociales{
+width: 80%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+margin-left: 20px;
+}
+.red-1 i {
+font-size: 30px;
+}
+.red-2 i {
+font-size: 30px;
+}
+.red-3 i {
+font-size: 30px;
+}
+.columna-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.info{
+width: 100%;
+height: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#personal{
+width: 75%;
+height: 12%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: 13px;
+background-color:rgb(2, 34, 104) ;
+color: rgb(221, 213, 213);
+border-radius: 30px 30px 30px 30px;
+}
+
+#text2{
+width:80%;
+height: 55%;
+text-align: justify;
+}
+.educacion{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+#edu{
+    width: 70%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    background-color:rgb(2, 34, 104) ;
+    color: white;
+    border-radius: 30px 30px 30px 30px;  
+}
+#lista{
+    width: 65%;
+    height: 73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    margin-right: 15%;
+} 
+.li-1{
+width: 100%;
+height: 35%;
+list-style: none;
+}
+.li-2{
+width: 100%;
+height: 25%;
+list-style: none;
+}
+.li-3{
+width: 100%;
+height: 25%;
+list-style: none;
+}
+.experiencia{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+#exp{
+    width: 70%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    background-color:rgb(2, 34, 104);
+    color: white;
+    border-radius: 30px 30px 30px 30px;  
+}
+#lista2{
+    width: 65%;
+    height: 73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    margin-right: 15%;
+} 
+.li-4{
+width: 100%;
+height: 30%;
+list-style: none;
+}
+.li-5{
+width: 100%;
+height: 35%;
+list-style: none;
+}
+
+.li-6{
+width: 100%;
+height: 30%;
+list-style: none;
+}
+@media all and (min-width: 800px) {
+    html, body{
+        background-color: #f3e6dc;
+    }
+
+    .contenedor-pro{
+        width: 75%;
+        margin: auto;
+    }
+    .info{
+        width: 100%;
+        height: 40%;
+        }
+        #personal{
+        font-size: 18px;
+        }
+        
+        #text2{
+        width:80%;
+        height: 70%;
+        font-size: 20px;
+        }
+        .educacion{
+            width: 100%;
+            height: 40%;  
+        }
+        #edu{
+            font-size: 18px;
+        }
+        #lista{
+            font-size: 18px;
+        } 
+        .experiencia{
+            width: 100%;
+            height: 40%;  
+        }
+        #exp{
+            font-size: 18px;
+    
+        }
+        #lista2{
+        font-size: 18px;
+        } 
+        .li-4{
+        height: 25%;
+        }
+        .li-5{
+        height: 35%;
+        }
+        
+        .li-6{
+        height: 30%
+        }
+    }
+    
+    @media all and (min-width:1280px) {
+        html,body {
+            background-color: #f3e6dc;
+        }
+        .contenedor-pro{
+            width: 55%;
+            margin: auto;
+        }
+        .info{
+            width: 100%;
+            height: 40%;
+            }
+            #personal{
+            font-size: 20px;
+            }
+            
+            #text2{
+            width:80%;
+            height: 70%;
+            font-size: 21px;
+            }
+            .educacion{
+                width: 100%;
+                height: 40%;  
+            }
+            #edu{
+                font-size: 20px;
+            }
+            #lista{
+                font-size: 21px;
+            } 
+            .experiencia{
+                width: 100%;
+                height: 40%;  
+            }
+            #exp{
+                font-size: 20px;
+        
+            }
+            #lista2{
+            font-size: 21px;
+            } 
+            .li-4{
+            height: 25%;
+            }
+            .li-5{
+            height: 35%;
+            }
+            
+            .li-6{
+            height: 30%
+            }
+    }
